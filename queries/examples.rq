@@ -1,0 +1,10 @@
+PREFIX : <https://example.org/chords-inside-keys#>
+
+# CQ1: notes in C major.
+SELECT ?note WHERE { :CMajorChord :hasNote ?note } ORDER BY ?note
+
+# CQ6 and CQ11: the same chord has two different functions.
+# Run this as a separate query.
+# SELECT ?key ?function WHERE {
+#   ?use :hasChord :CMajorChord ; :belongsToKey ?key ; :hasFunction ?function .
+# } ORDER BY ?key

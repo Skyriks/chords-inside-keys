@@ -1,0 +1,9 @@
+Parsed 474 triples; example checks passed.
+CQ1: C, E, G
+CQ2, exact C-E-G set: [('CMajorChord',)]
+CQ6 and CQ11: [('CMajorKey', 'Tonic'), ('GMajorKey', 'Subdominant')]
+CQ10, dominant of C major: [('GMajorChord',)]
+CQ13, chords with C: [('AMinorChord',), ('CMajorChord',), ('FMajorChord',)]
+CQ8 and CQ12, equal note sets: [('AMinorKey', 'CMajorKey')]
+The query answers above use only the examples entered so far.
+Full DL consistency and the remaining questions still need review in Protege.
